@@ -1,0 +1,18 @@
+<div>
+  <div class="alert alert-info" role="alert" *ngFor="let lesson of lessons">
+    <div class="d-flex flex-wrap flex-xl-nowrap flex-lg-nowrap flex-md-nowrap">
+      <div class="p-2">
+        {{ lesson.fields.title }}
+      </div>
+      <div class="p-2">
+        {{ lesson.fields.episode }}
+      </div>
+      <div class="p-2">
+        {{ lesson.fields.body }}
+      </div>
+      <div class="p-2">
+        {{ lesson.fields.createdAt }}
+      </div>
+    </div>
+  </div>
+</div>
